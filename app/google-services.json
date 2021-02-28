@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "774213736943",
+    "project_id": "cloudmessagingtutorial-47bbf",
+    "storage_bucket": "cloudmessagingtutorial-47bbf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:774213736943:android:b0e7d7b919a5dce0c8fe1a",
+        "android_client_info": {
+          "package_name": "com.Bitar.firebase_cloud_messaging"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "774213736943-koei77fnv6f9trnfqp9rugq2alo626rn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHf7kZWv5sR4WBJwHFPkLA0JJSAJUn8UU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "774213736943-koei77fnv6f9trnfqp9rugq2alo626rn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

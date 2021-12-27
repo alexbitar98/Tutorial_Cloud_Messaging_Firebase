@@ -24,15 +24,11 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
 
     @Override
     public void onMessageReceived(RemoteMessage remoteMessage) {
-
         /**
          * Called when message is received.
-         *
          * @param remoteMessage Object representing the message received from Firebase Cloud Messaging.
          */
-
     Log.d(TAG, "From: " + remoteMessage.getFrom());
-
         // Check if message contains a data payload.
         if (remoteMessage.getData().size() > 0) {
             Log.d(TAG, "Message data payload: " + remoteMessage.getData());
@@ -42,9 +38,6 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
 
 
         }
-
-
-
     }
 
 

@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
                 Object value = getIntent().getExtras().get(key);
                 Log.d(TAG, "Key: " + key + " Value: " + value);
                 if(key.equals("ID"))
-                    Toast.makeText(MainActivity.this, "data sended from server : ID ="+value.toString(), Toast.LENGTH_SHORT).show();
+Toast.makeText(MainActivity.this, "data sended from server : ID ="+value.toString(), Toast.LENGTH_SHORT).show();
             }
         }
 
